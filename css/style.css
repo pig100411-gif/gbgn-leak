@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Malgun Gothic',sans-serif;
+    background:#f5f7fb;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.header{
+    background:#0084ff;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.header h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.header p{
+    font-size:18px;
+}
+
+.search{
+    padding:40px 0;
+    text-align:center;
+}
+
+.search input{
+
+    width:320px;
+    max-width:80%;
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+.search button{
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#0084ff;
+
+    color:white;
+
+    cursor:pointer;
+
+    margin-left:10px;
+
+}
+
+.region{
+
+    padding:50px 0;
+
+}
+
+.region h2{
+
+    margin-bottom:20px;
+
+}
+
+.city-list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin-bottom:40px;
+
+}
+
+.city-list button{
+
+    border:none;
+
+    background:white;
+
+    padding:15px 25px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    box-shadow:0 0 8px rgba(0,0,0,.08);
+
+}
+
+.city-list button:hover{
+
+    background:#0084ff;
+
+    color:white;
+
+}
+
+.recommend{
+
+    padding:60px 0;
+
+    text-align:center;
+
+}
